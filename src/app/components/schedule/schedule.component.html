@@ -1,0 +1,22 @@
+<div class="row schedule">
+        <!-- Menu -->
+        <div class="menu col-md-1 col-12">
+          <div class="row">
+            <!-- Enlace para añadir un contacto -->
+            <div class="menu-item col-md-12 col-6" [routerLink]="['add-contact']">
+                <a href=""></a>
+              <img class="img-fluid" src="assets/img/form.png" alt="">
+            </div>
+            <!-- Enlace  para listar constactos -->
+            <div class="menu-item col-md-12 col-6" [routerLink]="['list-contacts']">
+              <img class="img-fluid" src="assets/img/card.png" alt="">
+            </div>
+          </div>
+        </div>
+      
+        <div class="content col-md-11 col-12 h-100">
+          <!-- Segun la ruta, cargara uno u otro componente -->
+          <router-outlet></router-outlet>
+        </div>
+      
+      </div>
