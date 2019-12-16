@@ -5,10 +5,11 @@ import { AddContactComponent } from './add-contact/add-contact.component';
 import { ListContactComponent } from './list-contact/list-contact.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CapitalizePipe } from '../../pipes/capitalize.pipe';
 
 
 @NgModule({
-  declarations: [ScheduleComponent,AddContactComponent,ListContactComponent],
+  declarations: [ScheduleComponent,AddContactComponent,ListContactComponent, CapitalizePipe],
   imports: [
     CommonModule,
     RouterModule,

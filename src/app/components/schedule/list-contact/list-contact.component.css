@@ -1,0 +1,7 @@
+.list-contact .card-footer a {
+    cursor: pointer;
+}
+.list-contact .elipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ScheduleModule } from './components/schedule/schedule.module';
 import { HttpClientModule } from '@angular/common/http';
+//Pipes
+import { CapitalizePipe } from './pipes/capitalize.pipe';
 @NgModule({
   declarations: [
     AppComponent
